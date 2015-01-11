@@ -1,0 +1,198 @@
+/* CSS Document */
+body{
+	padding:0; margin:0; background:url(../images/bg.gif) repeat-x 0 0 #fff; font-family:Verdana, Arial, Helvetica, sans-serif;
+	color:#848484;
+	}
+div, img, p, ul, h1, h2, h3, h4, h5, form, textarea, select, option{
+	padding:0; margin:0;
+	}
+ul{
+	list-style-type:none; font-size:0;
+	}
+.spacer{
+	font-size:0; line-height:0; clear:both;
+	}
+/*-------------------< < < << header part start >> > >-----------*/
+#header{
+	width:778px; margin:0 auto; height:384px; position:relative; 
+	}
+#header a.mail{
+	background:url(../images/email.gif) no-repeat 0 4px; position:absolute; left:13px; top:6px; padding:0 0 0 18px;
+	color:#FFFFFF; background-color:inherit; text-decoration:none; font-size:10px; line-height:14px; font-weight:bold;
+	}
+#header a.mail:hover{
+	text-decoration:underline;
+	}
+#header p.tollFree{
+	background:url(../images/toll.gif) no-repeat 0 0; font-size:10px; font-weight:bold; position:absolute;
+	right:102px; top:4px; padding:0 0 0 14px; line-height:17px; color:#FFFFFF; background-color:inherit;
+	}
+#header img{
+	display:block; font-size:0;
+	}
+#header img.logo{
+	position:absolute; left:33px; top:32px; z-index:5;
+	}
+#flash{
+	width:778px; height:335px; position:absolute; left:0; top:49px;
+	}
+#header ul{
+	height:32px; position:absolute;	left:33px; top:341px; z-index:5; padding:0 0 0 3px;	width: 706px;
+	}
+#header ul li{
+	float:left; display:block; padding:0 9px; 
+	}
+#header ul li.noimg{
+	background-image:none;
+	}
+#header ul li a{
+	display:block; text-decoration:none;  text-align:center; color:#014269; text-transform:capitalize; padding:0 7px;
+	background:url(../images/navi.gif) repeat-x 0 0 #E5E1D6; font-weight:bold; line-height:32px; font-size:11px;	
+	}
+#header ul li a:hover,#header ul li a.hover{
+	background:url(../images/navi_h_bg.gif) repeat-x 0 0 #E5E1D6; color:#FCE3A1; line-height:32px;
+	}
+/*-------------------------body-------------------*/
+#body{
+	width:778px; margin:0 auto; background:url(../images/body_top.gif) no-repeat 0 0;
+	}
+#body h2.welcome{
+		background:url(../images/introduction.gif) no-repeat 0 0; height:61px; display:block; margin:0 0 0 35px;
+		}
+#pictex{
+	padding:0 37px;
+	}
+#pictex img.bodyPic{
+	float:right; display:block; font-size:0; margin: 0 0 30px 0;
+	}
+#pictex p.text{
+	 padding:0 0 19px 0; font-size:11px; margin:0; width:500px; float:left;
+	}
+#pictex p.text a{
+	color:#FF0000; text-decoration:underline; background-color:inherit; display:block; width:75px; margin:19px 0 19px  0;
+	}
+#pictex p.text a:hover{
+	text-decoration:none;
+		}
+#pictex h2.gallery{
+	font:bold 21px/25px "Trebuchet MS", Arial, Helvetica, sans-serif; color:#9566A5; width:500px; float:left;
+	background-color:inherit; text-transform:uppercase; margin:0 0 0 0;
+	}
+#pictex a.infor{
+	float:right; color:#FF0000; text-decoration:underline; background-color:inherit; font-size:11px; line-height:15px;
+	margin:0 0 0 0;
+	}
+#pictex a.infor:hover{
+	text-decoration:none;
+		}
+#gallery{
+	width:706px; float:left; background:url(../images/gallery_bg.gif) repeat-y 0 0; margin:5px 0 6px 0;
+	}
+#gallery p.top{
+	background:url(../images/grallery_top.gif) no-repeat 0 0; height:5px;
+	}
+#gallery p.bot{
+	background:url(../images/gallery_bot.gif) no-repeat left bottom; height:5px;
+	}	
+#gallery ul{
+	margin:0 5px; padding:4px 0 0 7px; border:#DEDEDC 1px solid; height:83px; background:#F1F1F1; color:#000000;
+	}
+#gallery ul li{
+	padding:0 8px 0 0; float:left; 
+	}
+#gallery ul li img{
+	display:block; font-size:0; line-height:0; border:none;
+	}
+#botMain{	
+   background: #fff url(../images/footer_bg.gif) repeat-x left bottom;
+   color:#a2c04d; 
+   padding:0 0 18px 0;
+ }
+#botBody{
+	margin:0 auto; background:url(../images/body_bot_bg.gif) no-repeat left bottom; width:706px; padding:18px 30px 16px 42px;
+	}
+#botBody h2.service{
+	background:url(../images/graden.gif) no-repeat 0 0 #FFFFFF; color:#8EB22A; float:left; width:430px;
+	font:bold 19px/25px "Trebuchet MS", Arial, Helvetica, sans-serif; padding:0 0 0 30px; text-transform:uppercase;
+	}
+#botBody img.specialOffer{
+	float:right; display:block; font-size:0;
+	}
+#botBody ul.link{
+	padding:0 0 46px 84px; float:left; width:370px;
+	}
+#botBody ul.link li{
+	background:url(../images/red_icon.gif) no-repeat 0 7px; padding:0 0 0 10px; font-size:11px; color:#0A0D00; 
+	background-color:inherit; line-height:16px	 
+	}
+/*--------------------------footer part start----------------*/
+#footer{
+	 height:68px; width:778px; margin:55px auto 0;
+	}
+#footer ul{
+	height:15px; margin:0 0 0 50px;
+	}
+#footer ul li{
+	float:left; padding:0 40px 0 12px; background:url(../images/footer_icon.gif) no-repeat 0 4px;	
+	}
+#footer ul li a{
+	background-color:inherit;  color:#CEE59A; text-decoration:none; text-transform:uppercase;
+	font:bold 11px/15px Arial, Helvetica, sans-serif;
+	}
+#footer ul li a.hover{
+	background-color:inherit; color:#FFFFFF; 
+	}
+#footer ul li a:hover{
+	background-color:inherit; color:#FFFFFF;
+	}
+#footer p{
+	margin:34px 0 0 0; font:normal 11px/15px Verdana, Arial, Helvetica, sans-serif; text-align:center;
+	}
+#footer p span{
+	padding:0 0 0 200px;
+	}
+/*----------------------content------------*/
+#botBody1{
+	margin:0 auto; background:url(../images/body_bot_bg1.gif) no-repeat left bottom; width:706px; padding:0 30px 16px 42px;
+	}
+#botBody1 h2.aboutservices{
+	background:url(../images/intr_service.gif) no-repeat 0 0; height:54px; display:block; margin:6px 0 15px 0;
+	}
+#botBody1 p.text{
+	 padding:0 0 19px 0; font-size:11px; margin:0; color:#848484; background-color:inherit;
+	}
+#botBody1 p.text a{
+	color:#FF0000; text-decoration:underline; background-color:inherit; display:block; width:75px; margin:19px 0 0  0;
+	}
+#botBody1 p.text a:hover{
+	text-decoration:none;
+		}
+.marginDre{
+	margin-top:50px !important;
+	}
+/*--------------------------------contact us pages-----------------------*/
+#botBody1 h2.contactDet{
+	background:url(../images/flower_agent_contact.gif) no-repeat 0 0; height:46px; display:block; margin:6px 0 15px 0;
+	}
+#botBody1 form{
+	width:318px; padding:20px 0 23px 210px; 
+		}
+#botBody1 form label{
+	width:70px; height:18px; margin:0 0 5px 0; float:left; display:block; 
+	font:normal 11px/18px tahoma, Arial, Helvetica, sans-serif; color:#000000; background-color:inherit;
+		}
+#botBody1 form input{
+	width:239px; height:16px; border:#919294 1px solid; float:left; margin:0 0 5px 0;
+		}
+#botBody1 form textarea{
+	width:239px; border:#919294 1px solid; float:left; margin:0 0 11px 0; height:50px;
+		}
+#botBody1 form label.blank{
+	width:123px; height:22px; font-size:0; 
+		}
+#botBody1 form input.submit{
+	background:url(../images/submit.gif) no-repeat 0 0; width:59px; height:22px; cursor:pointer; border:none; margin:0; float:left;
+		}
+#botBody1 form input.reset{
+	background:url(../images/reset.gif) no-repeat 0 0; width:52px; height:22px; cursor:pointer; border:none; margin:0 0 0 16px;
+		}
